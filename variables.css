@@ -1,0 +1,15 @@
+
+/* custom properties */
+:root {
+    --color-white: hsl(0, 0%, 100%);
+
+    --color-stone100: hsl(30, 54%, 90%);
+    --color-stone150: hsl(30, 18%, 87%);
+    --color-stone600: hsl(30, 10%, 34%);
+    --color-stone900: hsl(24, 5%, 18%);
+
+    --color-brown: hsl(14, 45%, 36%);
+
+    --color-rose800: hsl(332, 51%, 32%);
+    --color-rose50: hsl(330, 100%, 98%);
+}
