@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 /* custom properties */
 :root {
@@ -12,4 +14,9 @@
 
     --color-rose800: hsl(332, 51%, 32%);
     --color-rose50: hsl(330, 100%, 98%);
+
+    --font-size: 16px;
+
+    --font-family-youngSerif: 'Young Serif', sans-serif;
+    --font-family-outfit: 'Outfit', sans-serif;
 }

@@ -1,1 +1,109 @@
 @import url(./variables.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--color-stone100);
+    font-size: var(--font-size);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.component {
+    margin-top: 50px;
+    width: 700px;
+    max-width: 900px;
+    padding: 30px;
+    background-color: var(--color-white);
+    border-radius: 15px;
+}
+
+img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.title h1 {
+    font-family: var(--font-family-youngSerif);
+    font-weight: 400;
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+}
+
+.title p {
+    font-family: var(--font-family-outfit);
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.prep {
+    background: var(--color-rose50);
+    border-radius: 15px;
+    padding: 15px;
+    font-family: var(--font-family-outfit);
+    margin-bottom: 20px;
+}
+
+.prep h3 {
+    color: var(--color-rose800);
+    margin-bottom: 10px;
+}
+
+.prep ul {
+    margin-left: 25px;
+}
+
+.prep li {
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.ingredients {
+    font-family: var(--font-family-youngSerif);
+}
+
+.ingredients h3 {
+    color: var(--color-brown);
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.ingredients ul {
+    padding-left: 0.5rem;
+    margin-bottom: 25px;
+    font-family: var(--font-family-outfit);
+    font-weight: 300;
+    list-style-position: inside;
+}
+
+.ingredients li::marker {
+    color: var(--color-brown);
+}
+
+.instructions {
+    margin-top: 25px;
+}
+
+.instructions h3 {
+    font-family: var(--font-family-youngSerif);
+    color: var(--color-brown);
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.instructions ol {
+    font-family: var(--font-family-outfit);
+    list-style-position: inside;
+}
+
+
+
