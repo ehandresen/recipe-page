@@ -87,6 +87,7 @@ img {
 
 .ingredients li::marker {
     color: var(--color-brown);
+    font-size: 0.7rem;
 }
 
 .instructions {
@@ -102,7 +103,27 @@ img {
 
 .instructions ol {
     font-family: var(--font-family-outfit);
-    list-style-position: inside;
+    padding-left: 1.5rem;
+    margin-bottom: 25px;
+}
+
+.instructions li {
+    margin-bottom: 10px;
+    padding-left: .8rem;
+    font-weight: 300;
+}
+
+.instructions strong{
+    font-weight: 600;
+}
+
+.instructions li::marker {
+    color: var(--color-brown);
+    font-weight: 700;
+}
+
+.nutrition {
+    margin-top: 25px;
 }
 
 
