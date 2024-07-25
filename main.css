@@ -124,6 +124,35 @@ img {
 
 .nutrition {
     margin-top: 25px;
+    font-family: var(--font-family-outfit);
+}
+
+.nutrition h3 {
+    font-family: var(--font-family-youngSerif);
+    color: var(--color-brown);
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+table {
+    margin-top: 15px;
+    width: 100%;
+    padding-left: 2rem;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+
+td:last-of-type {
+    color: var(--color-brown);
+    font-weight: 600;
+}
+
+tr:last-of-type td{
+    border: none;
 }
 
 
