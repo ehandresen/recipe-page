@@ -42,7 +42,7 @@ img {
 .title p {
     font-family: var(--font-family-outfit);
     font-weight: 200;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .prep {
@@ -83,6 +83,10 @@ img {
     font-family: var(--font-family-outfit);
     font-weight: 300;
     list-style-position: inside;
+}
+
+.ingredients li {
+    margin-bottom: 10px;
 }
 
 .ingredients li::marker {
